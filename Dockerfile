@@ -1,6 +1,6 @@
-#httpd 2.2
+#httpd 2.4
 
-FROM httpd:2.2
+FROM httpd:2.4
 
 ENV APACHE_MOD_PROXY=""
 ENV APACHE_ACCESS_CONTROL=""
