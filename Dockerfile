@@ -3,6 +3,7 @@
 FROM httpd:2.2
 
 ENV APACHE_MOD_PROXY=""
+ENV APACHE_ACCESS_CONTROL=""
 
 COPY entrypoint.sh /entrypoint.sh
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
